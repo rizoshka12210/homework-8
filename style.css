@@ -305,4 +305,29 @@ body {
   text-decoration: none;
   color: #2f5d73;
   font-size: 14px;
+}
+
+.cta {
+  background: #e6ecef;
+  text-align: center;
+  padding: 90px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.cta h2 {
+  font-size: 32px;
+  color: #1c5169;
+  margin-bottom: 15px;
+}
+.cta p {
+  color: #5d7a8a;
+  margin-bottom: 30px;
+}
+.cta button {
+  background: #1c5169;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 4px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
