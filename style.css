@@ -123,4 +123,65 @@ body {
   right: 50px;
   top: 70px;
   background-color: #e6e6e6;
+}
+
+.container1 {
+  width: 1200px;
+  margin: auto;
+}
+
+.practice {
+  padding: 80px 0;
+}
+.practice .title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  color: #1e3a4c;
+  margin-bottom: 10px;
+}
+.practice .subtitle {
+  color: #6b7b86;
+  max-width: 420px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+.practice .cards {
+  display: flex;
+  gap: 30px;
+}
+.practice .card {
+  background: white;
+  padding: 40px 35px;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  transition: 0.3s;
+}
+.practice .card .icon {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1e6d8c;
+}
+.practice .card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #1e3a4c;
+}
+.practice .card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #6b7b86;
+  margin-bottom: 25px;
+}
+.practice .card a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1e6d8c;
+  font-weight: 500;
+}
+.practice .card:hover {
+  transform: translateY(-5px);
+}
+.practice .active {
+  border: 2px solid #2f7bbf;
 }/*# sourceMappingURL=style.css.map */
